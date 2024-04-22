@@ -1,0 +1,120 @@
+.sidenav{
+    border-right: 1px solid #656565;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+.home-header {
+    height: 10vh;
+    background-color: #111111;
+
+}
+.cover{
+    background-color: #111111; 
+}
+.logo{
+    width: 100%;
+    height: 20%;
+}
+.home-container{
+    background-color: #111111;
+}
+.icon{
+    margin-left: 20%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.home-label{
+    cursor: pointer;
+}
+.navs {
+    /* Define styles for the parent */
+    cursor: pointer;
+    position: relative; /* Needed for absolute positioning of the border */
+  }
+  
+  .icon, .home-label {
+    /* Define default styles for the children */
+    color: #a3a0a0; /* Default color */
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  .navs:hover .icon, .navs:hover .home-label {
+    /* Define styles for when the parent is hovered */
+    color: rgb(57, 132, 161) ; /* Color change on hover */
+  }       
+  
+  /* Focus effect */
+  .navs:focus .icon, .navs:focus .home-label {
+    /* Define styles for when the parent is focused */
+    color: rgb(39, 122, 201); /* Color change on focus */
+  }
+  .navs:hover{
+    color:rgb(39, 122, 201);
+  }
+  /* Border effect */ 
+  
+  
+  .navs:hover::after,
+  .navs:focus::after {
+    width: 100%; /* Expand border on hover/focus */
+  }
+  .rounded-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #111111; /* Green background */
+    color: white; /* White text color */
+    border: 1px solid #656565; /* No border */
+    border-radius: 20px; /* Round sides */
+    cursor: pointer;
+    outline: none; /* Remove default focus style */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .input-wrapper{
+    background-color: #F6F6F6;
+    height: 2.5rem;
+    border-radius: 10%;
+    width: 50%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+  .input-wrapper input{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25;
+    width: 100%;
+    margin-left: 5px;
+    color: #111111;
+    outline: none;
+  }
+  .search-icon{
+    color: #111111 !important;
+  }
+  .searchbar{
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #F6F6F6; /* Green background */
+    border-radius: 50px;
+  }
+  .search-input{
+    background-color: transparent;
+    outline: none;
+    color: #111111;
+    border: none;
+    margin-right: 5%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo img {
+    
+    width: 60%;
+  }
+  .search-input ::placeholder{
+    color: #111111;
+  }
